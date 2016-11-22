@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Chaud,froid</title>
+    <link rel="stylesheet" href="CSS/style.css">
+  </head>
+<body>
+    <div id="barrenav">
+
+      <nav>
+        <ul>
+          <li>Trouvez Moi</li>
+        </ul>
+      </nav>
+
+    </div>
+
+    <div id="recit">
+      <p>Bonjour! Je m'appelle Charlie et je suis caché dans un zone bien précise! Le but de ce jeu est de me retrouver en s'aidant des indices chaud et froid : plus vous etes proche de moi, plus vous la température monte! Plus vous vous éloignez, plus l'ambiance est glaciale! A vous de jouer!
+      </p>
+
+      <form method="post" action="" id="chiffre">
+        <label for="chiffre"> Entrez un chiffre situé entre 0 et 100 :</label>
+        <input type="text" name="chiffre" id="champchiffre" placeholder="exemple : 21"/>
+      </form>
+
+      <button id = "bouton" onclick="nombre()" type="button" name="button">PUSH</button>
+
+    </div>
+
+    <div id="chaudFroid">
+      <p><span id="CF">Me trouverai vous?</span></p>
+    </div>
+
+      <script src="JS/script.js"></script>
+
+</body>
+</html>
